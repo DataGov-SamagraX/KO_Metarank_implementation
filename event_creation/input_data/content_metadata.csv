@@ -1,0 +1,371 @@
+﻿pushcall_id,base_tag,tag_2,tag_3,crop,month,duration
+20210703_cucurbits_downy_mildew_dpm_crop,crop,pest management,downy_mildew,cucurbits,7,90.94
+20210703_maize_faw_dpm_crop,crop,pest management,faw,maize,7,129.5
+20210703_sugarcane_top_shoot_borer_dpm_crop,crop,pest management,top_shoot_borer,sugarcane,7,81.65
+20210801_brinjal_shoot_and_fruit_borer_dpm_crop,crop,pest management,shoot_and_fruit_borer,brinjal,8,118.54
+20210801_groundnut_leaf_miner_sucking_pest_dpm_crop,crop,pest management,leaf_miner_sucking_pest,groundnut,8,98.45
+20210801_maize_faw_dpm_crop,crop,pest management,faw,maize,8,129.5
+20210801_okra_sucking_pest_dpm_crop,crop,pest management,sucking_pest,okra,8,98.3
+20210801_sugarcane_top_shoot_borer_dpm_crop,crop,pest management,top_shoot_borer,sugarcane,8,81.65
+20210803_brinjal_shoot_fruit_borer_dpm_crop,crop,pest management,shoot_fruit_borer,brinjal,8,118.54
+20210803_cotton_sucking_pest_dpm_crop,crop,pest management,sucking_pest,cotton,8,106.05
+20210803_cucurbits_downy_mildew_dpm_crop,crop,pest management,downy_mildew,cucurbits,8,90.94
+20210803_greengram_blackgram_aphids_dpm_crop,crop,pest management,blackgram_aphids,greengram,8,76.18
+20210803_groundnut_tikka_dpm_crop,crop,pest management,tikka,groundnut,8,92.84
+20210803_maize_faw_dpm_crop,crop,pest management,faw,maize,8,129.5
+20210803_okra_sucking_pest_dpm_crop,crop,pest management,sucking_pest,okra,8,98.3
+20210803_redgram_leaf_webber_dpm_crop,crop,pest management,leaf_webber,redgram,8,71.65
+20210803_sugarcane_red_rot_dpm_crop,crop,pest management,red_rot,sugarcane,8,58.06
+20210805_greengram_blackgram_cercospora_dpm_crop,crop,pest management,blackgram_cercospora,greengram,8,95.23
+20210805_vegetables_ymv_dpm_crop,crop,pest management,ymv,vegetables,8,103.96
+20210901_paddy_leaf_folder_case_worm_dpm_crop,crop,pest management,leaf_folder_case_worm,paddy,9,98.29
+20210903_blackgram_greengram_podborer_dpm_crop,crop,pest management,greengram_podborer,blackgram,9,75.72
+20210903_brinjal_phomopsis_blight_dpm_crop,crop,pest management,phomopsis_blight,brinjal,9,82.65
+20210903_cotton_sucking_pest_dpm_crop,crop,pest management,sucking_pest,cotton,9,107.15
+20210903_cucurbits_pumpkin_beetle_dpm_crop,crop,pest management,pumpkin_beetle,cucurbits,9,83.82
+20210903_groundnut_stem_rot_dpm_crop,crop,pest management,stem_rot,groundnut,9,77.88
+20210903_maize_faw_dpm_crop,crop,pest management,faw,maize,9,129.5
+20210903_okra_fruit_borer_dpm_crop,crop,pest management,fruit_borer,okra,9,118.49
+20210903_redgram_leaf_webber_bliser_beetle_dpm_crop,crop,pest management,leaf_webber_bliser_beetle,redgram,9,71.65
+20210903_sugarcane_red_rot_dpm_crop,crop,pest management,red_rot,sugarcane,9,58.06
+20211001_brinjal_tomato_dampingoff_dpm_crop,crop,pest management,tomato_dampingoff,brinjal,10,122.45
+20211001_colecrops_dampingoff_dpm_crop,crop,pest management,dampingoff,colecrops,10,125.82
+20211001_cucurbits_fruitfly_dpm_crop,crop,pest management,fruitfly,cucurbits,10,83.9
+20211001_maize_leaf_blight_dpm_crop,crop,pest management,leaf_blight,maize,10,70.48
+20211001_okra_sucking_pest_dpm_crop,crop,pest management,sucking_pest,okra,10,80.38
+20211001_redgram_leaf_webber_blister_beetle_dpm_crop,crop,pest management,leaf_webber_blister_beetle,redgram,10,71.65
+20211001_sugarcane_pyrilla_dpm_crop,crop,pest management,pyrilla,sugarcane,10,69.82
+20211002_paddy_gundhibug_dpm_crop,crop,pest management,gundhibug,paddy,10,107.34
+20211003_brinjal_tomato_dampingoff_dpm_crop,crop,pest management,tomato_dampingoff,brinjal,10,122.45
+20211003_colecrops_dampingoff_dpm_crop,crop,pest management,dampingoff,colecrops,10,112.39
+20211003_cucurbits_fruitfly_dpm_crop,crop,pest management,fruitfly,cucurbits,10,83.9
+20211003_maize_leaf_blight_dpm_crop,crop,pest management,leaf_blight,maize,10,70.48
+20211003_okra_sucking_pest_dpm_crop,crop,pest management,sucking_pest,okra,10,80.38
+20211003_redgram_dpm_crop,crop,pest management,,redgram,10,79.73
+20211003_sugarcane_pyrilla_dpm_crop,crop,pest management,pyrilla,sugarcane,10,69.82
+20211004_cucurbits_pumpkin_beetle_dpm_crop,crop,pest management,pumpkin_beetle,cucurbits,10,83.39
+20211004_sugarcane_pyrilla_dpm_crop,crop,pest management,pyrilla,sugarcane,10,77.49
+20211102_onion_seed_treatment_varietal_selection_dpm_crop,crop,nursery_management,seed_treatment_varietal_selection,onion,11,100.6
+20211102_paddy_bph_dpm_crop,crop,pest management,bph,paddy,11,148.57
+20211102_paddy_neck_blast_dpm_crop,crop,pest management,neck_blast,paddy,11,91.8
+20211103_onion_seed_treatment_varietal_selection_dpm_crop,crop,nursery_management,seed_treatment_varietal_selection,onion,11,104.92
+20211103_paddy_bph_dpm_crop,crop,pest management,bph,paddy,11,120.25
+20211104_paddy_bph_dpm_crop,crop,pest management,bph,paddy,11,120.25
+20211104_paddy_caterpillar_dpm_crop,crop,pest management,caterpillar,paddy,11,80.01
+20211202_brinjal_sf_borer_dpm_crop,crop,pest management,sf_borer,brinjal,12,148.32
+20211202_groundnut_collarrot_dpm_crop,crop,pest management,collarrot,groundnut,12,121.47
+20211202_mustard_sawfly_dpm_crop,crop,pest management,sawfly,mustard,12,94.83
+20211202_onion_dampingoff_dpm_crop,crop,pest management,dampingoff,onion,12,70.58
+20211202_potato_leaf_blight_dpm_crop,crop,pest management,leaf_blight,potato,12,75.5
+20211202_tomato_fruit_borer_dpm_crop,crop,pest management,fruit_borer,tomato,12,104.65
+20211203_brinjal_sf_borer_dpm_crop,crop,pest management,sf_borer,brinjal,12,118.54
+20211203_chilli_sucking_pest_dpm_crop,crop,pest management,sucking_pest,chilli,12,83.44
+20211203_colecrops_dbm_dpm_crop,crop,pest management,dbm,colecrops,12,118.87
+20211203_groundnut_collarrot_dpm_crop,crop,pest management,collarrot,groundnut,12,125.66
+20211203_mustard_aphid_dpm_crop,crop,pest management,aphid,mustard,12,85.92
+20211203_onion_dampingoff_dpm_crop,crop,pest management,dampingoff,onion,12,70.4
+20211203_potato_leaf_blight_dpm_crop,crop,pest management,leaf_blight,potato,12,82.62
+20211203_tomato_whiteflies_dpm_crop,crop,pest management,whiteflies,tomato,12,122.32
+20211204_brinjal_sf_borer_dpm_crop,crop,pest management,sf_borer,brinjal,12,118.54
+20211204_groundnut_sucking_pest_dpm_crop,crop,pest management,sucking_pest,groundnut,12,73.59
+20211204_mustard_downy_mildew_dpm_crop,crop,pest management,downy_mildew,mustard,12,61.33
+20211204_potato_leaf_blight_dpm_crop,crop,pest management,leaf_blight,potato,12,82.62
+20220101_chilli_mites_dpm_crop,crop,pest management,mites,chilli,1,76.9
+20220101_groundnut_sucking_pest_dpm_crop,crop,pest management,sucking_pest,groundnut,1,80.79
+20220101_mustard_leafwebber_sawfly_dpm_crop,crop,pest management,leafwebber_sawfly,mustard,1,71.84
+20220101_potato_sucking_pest_dpm_crop,crop,pest management,sucking_pest,potato,1,90.77
+20220103_brinjal_sf_borer_dpm_crop,crop,pest management,sf_borer,brinjal,1,118.54
+20220103_colecrops_dbm_hb_dpm_crop,crop,pest management,dbm_hb,colecrops,1,93.8
+20220103_potato_tubermoth_dpm_crop,crop,pest management,tubermoth,potato,1,92.66
+20220105_brinjal_epilachna_beetle_dpm_crop,crop,pest management,epilachna_beetle,brinjal,1,109.66
+20220105_chilli_sucking_pest_dpm_crop,crop,pest management,sucking_pest,chilli,1,84.57
+20220105_colecrops_alm_dpm_crop,crop,pest management,alm,colecrops,1,82.51
+20220105_groundnut_tikka_dpm_crop,crop,pest management,tikka,groundnut,1,91.45
+20220105_mustard_downy_mildew_dpm_crop,crop,pest management,downy_mildew,mustard,1,61.33
+20220105_onion_thrips_dpm_crop,crop,pest management,thrips,onion,1,90.69
+20220105_potato_tubermoth_dpm_crop,crop,pest management,tubermoth,potato,1,92.66
+20220105_tomato_leaf_blight_dpm_crop,crop,pest management,leaf_blight,tomato,1,64.19
+20220201_brinjal_sf_borer_dpm_crop,crop,pest management,sf_borer,brinjal,2,148.32
+20220201_chilli_sucking_pest_dpm_crop,crop,pest management,sucking_pest,chilli,2,84.57
+20220201_colecrops_als_dpm_crop,crop,pest management,als,colecrops,2,82.51
+20220201_groundnut_sucking_pest_dpm_crop,crop,pest management,sucking_pest,groundnut,2,80.79
+20220201_mustard_aphid_dpm_crop,crop,pest management,aphid,mustard,2,82.01
+20220201_onion_thrips_dpm_crop,crop,pest management,thrips,onion,2,90.69
+20220201_potato_leaf_blight_dpm_crop,crop,pest management,leaf_blight,potato,2,82.62
+20220201_sugarcane_sett_rot_dpm_crop,crop,pest management,sett_rot,sugarcane,2,121.81
+20220201_tomato_leaf_blight_dpm_crop,crop,pest management,leaf_blight,tomato,2,64.19
+20220202_brinjal_epilachna_beetle_dpm_crop,crop,pest management,epilachna_beetle,brinjal,2,109.66
+20220202_chilli_fruitrot_dieback_dpm_crop,crop,pest management,fruitrot_dieback,chilli,2,85.17
+20220202_groundnut_tikka_dpm_crop,crop,pest management,tikka,groundnut,2,91.45
+20220202_mustard_aphid_dpm_crop,crop,pest management,aphid,mustard,2,85.92
+20220202_onion_thrips_dpm_crop,crop,pest management,thrips,onion,2,90.69
+20220202_paddy_ysb_dpm_crop,crop,pest management,ysb,paddy,2,79.45
+20220202_potato_cutworm_dpm_crop,crop,pest management,cutworm,potato,2,97.91
+20220202_tomato_leaf_blight_dpm_crop,crop,pest management,leaf_blight,tomato,2,64.19
+20220204_brinjal_epilachna_beetle_dpm_crop,crop,pest management,epilachna_beetle,brinjal,2,109.66
+20220204_chilli_fruitrot_dieback_dpm_crop,crop,pest management,fruitrot_dieback,chilli,2,85.17
+20220204_groundnut_tikka_dpm_crop,crop,pest management,tikka,groundnut,2,91.45
+20220204_mustard_aphid_dpm_crop,crop,pest management,aphid,mustard,2,85.92
+20220204_onion_thrips_dpm_crop,crop,pest management,thrips,onion,2,90.69
+20220204_paddy_ysb_dpm_crop,crop,pest management,ysb,paddy,2,74.69
+20220204_potato_cutworm_dpm_crop,crop,pest management,cutworm,potato,2,97.91
+20220204_pulses_oilseed_tobacco_caterpillar_dpm_crop,crop,pest management,oilseed_tobacco_caterpillar,pulses,2,146.49
+20220204_tomato_leaf_blight_dpm_crop,crop,pest management,leaf_blight,tomato,2,64.19
+20220301_pulses_aphid_dpm_crop,crop,pest management,aphid,pulses,3,80.41
+20220302_blackgram_greengram_aphid_dpm_crop,crop,pest management,greengram_aphid,blackgram,3,86.7
+20220302_paddy_ysb_dpm_crop,crop,pest management,ysb,paddy,3,78.92
+20220303_cucurbits_fruitfly_dpm_crop,crop,pest management,fruitfly,cucurbits,3,94.22
+20220303_groundnut_tikka_dpm_crop,crop,pest management,tikka,groundnut,3,91.45
+20220303_okra_ymv_dpm_crop,crop,pest management,ymv,okra,3,137.72
+20220303_sugarcane_esb_dpm_crop,crop,pest management,esb,sugarcane,3,116.11
+20220401_okra_ymv_dpm_crop,crop,pest management,ymv,okra,4,138.83
+20220402_paddy_ysb_dpm_crop,crop,pest management,ysb,paddy,4,78.92
+maize_faw_dpm_crop,crop,pest management,faw,maize,9,124.24
+20210703_blackgram_greengram_preemergence_weed_management_crop,crop,pest management,weed_management,"blackgram,greengram",7,54.84
+20210703_brinjal_fertilizer_management_crop,crop,fertilizer_management,,brinjal,7,59.26
+20210703_cotton_fertilizer_management_crop,crop,fertilizer_management,,cotton,7,66.51
+20210703_okra_fertilizer_management_crop,crop,fertilizer_management,,okra,7,75.1
+20210704_paddy_at_fertilizer_management_crop,crop,fertilizer_management,,paddy,7,60.76
+20210704_paddy_pre_emergence_weed_management_crop,crop,pest management,weed_management,paddy,7,76.04
+20210801_blackgram_greengram_weed_management_crop,crop,fertilizer_management,,"blackgram,greengram",8,96.38
+20210801_cotton_fertilizer_management_crop,crop,fertilizer_management,,cotton,8,70.37
+20210903_colecrops_nursery_management_crop,crop,nursery_management,,colecrops,9,119.63
+20210903_tomato_nursery_management_crop,crop,nursery_management,,tomato,9,134.49
+20211001_maize_harvest_management_crop,crop,harvest_management,,maize,10,94.46
+20211003_maize_harvest_management_crop,crop,harvest_management,,maize,10,94.46
+20211004_maize_harvest_management_crop,crop,harvest_management,,maize,10,94.46
+20211101_brinjal_tomato_fertilizer_management_crop,crop,fertilizer_management,,"brinjal,tomato",11,118.04
+20211101_chilli_fertilizer_management_crop,crop,fertilizer_management,,chilli,11,71.8
+20211101_colecrops_fertilizer_management_crop,crop,fertilizer_management,,colecrops,11,69.53
+20211102_brinjal_tomato_fertilizer_management_crop,crop,fertilizer_management,,"brinjal,tomato",11,107.55
+20211102_chilli_fertilizer_management_crop,crop,fertilizer_management,,chilli,11,71.8
+20211102_colecrops_fertilizer_management_crop,crop,fertilizer_management,,colecrops,11,69.53
+20211102_groundnut_fertilizer_weed_management_crop,crop,fertilizer_management,,groundnut,11,111.13
+20211102_mustard_weed_management_crop,crop,pest management,weed_management,mustard,11,78.97
+20211103_brinjal_tomato_fertilizer_management_crop,crop,fertilizer_management,,"brinjal,tomato",11,95.56
+20211103_groundnut_weed_management_crop,crop,pest management,weed_management,groundnut,11,102.3
+20211103_mustard_interculture_fertilizer_management_crop,crop,fertilizer_management,,mustard,11,56.53
+20211103_paddy_harvest_management_crop,crop,harvest_management,,paddy,11,73.97
+20211104_paddy_harvest_management_crop,crop,harvest_management,,paddy,11,73.97
+20211105_paddy_harvest_management_crop,crop,harvest_management,,paddy,11,69.46
+20211204_paddy_nursery_management_crop,crop,nursery_management,,paddy,12,61.82
+20220101_onion_weed_management_crop,crop,pest management,weed_management,onion,1,64.07
+20220101_paddy_broadcasting_fertilizer_management_crop,crop,fertilizer_management,,paddy,1,82.93
+20220102_pr_pulses_weed_management_crop,crop,pest management,weed_management,pulses,1,113.03
+20220103_pr_pulses_weed_management_crop,crop,pest management,weed_management,pulses,1,113.03
+20220104_paddy_preemergence_weed_management_crop,crop,pest management,weed_management,paddy,1,93.34
+20220104_pr_pulses_rabi_nutrient_management_crop,crop,fertilizer_management,,pulses,1,77.01
+20220201_pulses_rabi_nutrient_management_crop,crop,fertilizer_management,,"pulses,rabi",2,77.01
+20220203_paddy_weed_management_crop,crop,pest management,weed_management,paddy,2,105.67
+20220203_pulses_weed_management_crop,crop,pest management,weed_management,pulses,2,122.43
+maize_fertilizer_management_crop,crop,fertilizer_management,,maize,9,72.23
+20210703_redgram_basal_fertilzer_crop,crop,fertilizer_management,basal,redgram,7,82.94
+20211001_cotton_fertilizer_crop,crop,fertilizer_management,,cotton,10,71.69
+20211003_cotton_fertilizer_crop,crop,fertilizer_management,,cotton,10,66.62
+20211004_brinjal_tomato_seedlings_treatment_fertilizer_crop,crop,fertilizer_management,seedling_treatment,"brinjal,tomato",10,101.12
+20211004_chilli_seedlings_treatment_fertilizer_crop,crop,fertilizer_management,seedling_treatment,"chilli,seedlings",10,107.57
+20211004_colecrops_transpalnting_fertilizer_crop,crop,fertilizer_management,transpalnting,colecrops,10,92.2
+20211004_mustard_seed_treatment_fertilizer_crop,crop,fertilizer_management,seed_treatment,"mustard,seed",10,94.6
+20211004_potato_seed_treatment_fertilizer_crop,crop,fertilizer_management,seed_treatment,"potato,seed",10,116.2
+20211101_mustard_seed_treatment_fertilizer_crop,crop,fertilizer_management,seed_treatment,"mustard,seed",11,107.06
+20211101_potato_seed_treatment_fertilizer_crop,crop,fertilizer_management,,"potato,seed",11,113.55
+20211102_potato_tuber_treatment_fertilizer_crop,crop,fertilizer_management,basal,"potato,tuber",11,93.86
+20211202_blackgram_greengram_basal_fertilizer_crop,crop,fertilizer_management,basal,"blackgram,greengram",12,73.24
+20211204_onion_basal_fertilizer_crop,crop,fertilizer_management,basal,onion,12,85.86
+20220103_paddy_basal_fertilizer_crop,crop,fertilizer_management,basal,paddy,1,82.75
+20220105_okra_fertilizer_crop,crop,fertilizer_management,,okra,1,98.85
+20220201_okra_fertilizer_crop,crop,fertilizer_management,,okra,2,98.85
+20220202_okra_fertilizer_crop,crop,fertilizer_management,,okra,2,98.85
+20220202_sugarcane_fertilizer_crop,crop,fertilizer_management,,sugarcane,2,102.59
+20220204_okra_fertilizer_crop,crop,fertilizer_management,,okra,2,98.85
+20220204_sugarcane_fertilizer_crop,crop,fertilizer_management,,sugarcane,2,102.59
+20220303_paddy_pi_fertilizer_crop,crop,fertilizer_management,,paddy,3,74
+20210704_animal_cattle_buffalo_goat_sheep_dm_livestock,livestock,dm,,"cattle,buffalo,goat,sheep",7,66.8
+20210704_animal_chicken_duck_fm_livestock,livestock,pp,,"chicken,duck",7,66.46
+20210804_animal_cattle_buffalo_pp_livestock,livestock,pp,,"cattle,buffalo",8,65.72
+20210804_animal_chicken_duck_fem_livestock,livestock,pp,,"chicken,duck",8,50.36
+20210804_animal_goat_sheep_dm_livestock,livestock,dm,,"goat,sheep",8,59.95
+20210805_animal_cattle_buffalo_goat_sheep_dm_livestock,livestock,dm,,"cattle,buffalo,goat,sheep",8,67.79
+20210805_animal_chicken_duck_dm_livestock,livestock,dm,,"chicken,duck",8,63.03
+20210902_animal_cattle_buffalo_hm_livestock,livestock,dm,,"cattle,buffalo",9,58.23
+20210902_animal_chicken_duck_hm_livestock,livestock,dm,,"chicken,duck",9,62.72
+20210902_animal_goat_sheep_dm_livestock,livestock,dm,,"goat,sheep",9,62.15
+20210903_animal_cattle_buffalo_dm_livestock,livestock,dm,,"cattle,buffalo",9,58.25
+20210903_animal_chicken_duck_hm_livestock,livestock,dm,,"chicken,duck",9,65.15
+20210903_animal_goat_sheep_dm_livestock,livestock,dm,,"goat,sheep",9,61.6
+20210904_animal_cattle_buffalo_hm_livestock,livestock,dm,,"cattle,buffalo",9,49.72
+20210904_animal_chicken_duck_hm_livestock,livestock,dm,,"chicken,duck",9,61.62
+20210904_animal_goat_sheep_pp_livestock,livestock,pp,,"goat,sheep",9,74.07
+20211001_animal_cattle_buffalo_goat_sheep_dm_livestock,livestock,dm,,"cattle,buffalo,goat,sheep",10,71.82
+20211001_animal_chicken_duck_hm_livestock,livestock,dm,,"chicken,duck",10,73.04
+20211002_animal_cattle_buffalo_hm_livestock,livestock,dm,,"cattle,buffalo",10,69.55
+20211002_animal_chicken_duck_pp_livestock,livestock,pp,,"chicken,duck",10,76.8
+20211002_animal_goat_sheep_pp_livestock,livestock,pp,,"goat,sheep",10,79.04
+20211003_animal_cattle_buffalo_vaccination_livestock,livestock,vaccination,,"cattle,buffalo",10,75.46
+20211003_animal_chicken_duck_vaccination_livestock,livestock,vaccination,,"chicken,duck",10,75.66
+20211003_animal_goat_sheep_vaccination_livestock,livestock,vaccination,,"goat,sheep",10,63.84
+20211102_animal_cattle_buffalo_goat_sheep_hm_livestock,livestock,dm,,"cattle,buffalo,goat,sheep",11,67.71
+20211102_animal_chicken_duck_dm_livestock,livestock,dm,,"chicken,duck",11,66.85
+20211103_animal_cattle_buffalo_goat_sheep_chicken_duck_hom_livestock,livestock,dm,,"cattle,buffalo,goat,sheep,chicken,duck",11,69.76
+20211105_animal_cattle_buffalo_hm_livestock,livestock,dm,,"cattle,buffalo",11,78.51
+20211105_animal_chicken_duck_hm_livestock,livestock,dm,,"chicken,duck",11,81.97
+20211105_animal_goat_sheep_hm_livestock,livestock,dm,,"goat,sheep",11,76.27
+20211201_animal_cattle_buffalo_hm_livestock,livestock,dm,,"cattle,buffalo",12,75.53
+20211201_animal_chicken_duck_pp_livestock,livestock,pp,,"chicken,duck",12,75.33
+20211201_animal_goat_sheep_pp_livestock,livestock,pp,,"goat,sheep",12,69.86
+20211202_animal_cattle_buffalo_hm_livestock,livestock,dm,,"cattle,buffalo",12,66.87
+20211202_animal_chicken_duck_hom_livestock,livestock,dm,,"chicken,duck",12,60.55
+20211203_animal_cattle_buffalo_dm_livestock,livestock,dm,,"cattle,buffalo",12,80.82
+20211204_animal_cattle_buffalo_dm_livestock,livestock,dm,,"cattle,buffalo",12,67.92
+20211204_animal_goat_sheep_fm_livestock,livestock,pp,,"goat,sheep",12,80.01
+20220101_animal_cattle_buffalo_fm_livestock,livestock,pp,,"cattle,buffalo",1,57.01
+20220101_animal_chicken_duck_fm_livestock,livestock,pp,,"chicken,duck",1,56.2
+20220101_animal_goat_sheep_fm_livestock,livestock,pp,,"goat,sheep",1,56.18
+20220102_animal_cattle_buffalo_dm_livestock,livestock,dm,,"cattle,buffalo",1,76.48
+20220102_animal_chicken_duck_pp_livestock,livestock,pp,,"chicken,duck",1,63.45
+20220102_animal_goat_sheep_bm_livestock,livestock,bm,,"goat,sheep",1,59.98
+20220103_animal_cattle_buffalo_pp_livestock,livestock,pp,,"cattle,buffalo",1,60.64
+20220103_animal_chicken_duck_pp_livestock,livestock,pp,,"chicken,duck",1,54.19
+20220103_animal_goat_sheep_dm_livestock,livestock,dm,,"goat,sheep",1,51.97
+20220105_animal_cattle_buffalo_goat_sheep_dm_livestock,livestock,dm,,"cattle,buffalo,goat,sheep",1,48.8
+20220105_animal_chicken_duck_dm_livestock,livestock,dm,,"chicken,duck",1,70.31
+20220201_animal_cattle_buffalo_hm_livestock,livestock,dm,,"cattle,buffalo",2,50.09
+20220201_animal_chicken_duck_dm_livestock,livestock,dm,,"chicken,duck",2,86.83
+20220201_animal_goat_sheep_fm_livestock,livestock,pp,,"goat,sheep",2,86.47
+20220202_animal_cattle_buffalo_hm_livestock,livestock,dm,,"cattle,buffalo",2,56.64
+20220202_animal_goat_sheep_dm_livestock,livestock,dm,,"goat,sheep",2,59.86
+20220203_animal_cattle_buffalo_hm_livestock,livestock,dm,,"cattle,buffalo",2,73.83
+20220203_animal_chicken_duck_vaccination_livestock,livestock,vaccination,,"chicken,duck",2,61.53
+20220203_animal_goat_sheep_dm_livestock,livestock,dm,,"goat,sheep",2,75.99
+20220301_animal_cattle_buffalo_dm_livestock,livestock,dm,,"cattle,buffalo",3,96.82
+20220301_animal_chicken_duck_pp_livestock,livestock,pp,,"chicken,duck",3,83.95
+20220301_animal_goat_sheep_pp_livestock,livestock,pp,,"goat,sheep",3,90.44
+20220303_animal_cattle_buffalo_goat_sheep_pp_livestock,livestock,pp,,"cattle,buffalo,goat,sheep",3,91.42
+20220303_animal_chicken_duck_dm_livestock,livestock,dm,,"chicken,duck",3,82.83
+20210704_freshwater_and_brackish_water_fishery,fishery,freshwater,,,7,91.25
+20210803_freshwater_brackishwater_fishery,fishery,freshwater,,,8,78.63
+20210804_freshwater_brackishwater_fishery,fishery,freshwater,,,8,75.39
+20210805_freshwater_brackishwater_fishery,fishery,freshwater,,,8,83.12
+20210901_freshwater_brackishwater_fishery,fishery,freshwater,,,9,88.19
+20210902_freshwater_brackishwater_fishery,fishery,freshwater,,,9,82.86
+20210903_freshwater_brackishwater_fishery,fishery,freshwater,,,9,86.78
+20210904_freshwater_brackishwater_fishery,fishery,freshwater,,,9,86.48
+20210904_marinefisheries_fishery,fishery,marinefisheries,,,9,109.77
+20211001_freshwater_brackishwater_fishery,fishery,freshwater,,,10,70.77
+20211001_marine_fisheries_fishery,fishery,marinefisheries,,,10,109.77
+20211002_freshwater_brackishwater_fishery,fishery,freshwater,,,10,77.69
+20211002_marinefisheries_fishery,fishery,marinefisheries,,,10,109.77
+20211003_freshwater_brackishwater_fishery,fishery,freshwater,,,10,108.64
+20211102_freshwater_brackishwater_fishery,fishery,freshwater,,,11,91.59
+20211103_freshwater_brackishwater_fishery,fishery,freshwater,,,11,71.79
+20211105_freshwater_brackishwater_fishery,fishery,freshwater,,,11,81.23
+20211201_freshwater_brackishwater_fishery,fishery,freshwater,,,12,104.61
+20211202_freshwater_brackishwater_fishery,fishery,freshwater,,,12,108.29
+20211203_freshwater_brackishwater_fishery,fishery,freshwater,,,12,113.86
+20211204_freshwater_brackish_water_fishery,fishery,freshwater,,,12,111.83
+20220101_freshwater_brackish_water_fishery,fishery,freshwater,,,1,112.37
+20220102_freshwater_brackish_water_fishery,fishery,freshwater,,,1,109.4
+20220103_freshwater_brackish_water_fishery,fishery,freshwater,,,1,129.33
+20220105_freshwater_brackish_water_fishery,fishery,freshwater,,,1,116.91
+20220201_freshwater_brackish_water_fishery,fishery,freshwater,,,2,71.34
+20220203_freshwater_brackish_water_fishery,fishery,freshwater,,,2,54.71
+20220301_freshwater_brackish_water_fishery,fishery,freshwater,,,3,111.83
+20220303_freshwater_brackish_water_fishery,fishery,freshwater,,,3,72.53
+20210703_groundnut_post_emergence_weed_management,crop,pest management,weed_management,groundnut,7,68.19
+20210802_livestock_cattle_buffalo_goat_sheep_dm_animal,livestock,dm,,"cattle,buffalo,goat,sheep",8,83.92
+20210802_livestock_chicken_duck_dm_animal,livestock,dm,,"chicken,duck",8,99.91
+20210803_livestock_cattle_buffalo_vaccination_animal,livestock,vaccination,,"cattle,buffalo ",8,72.07
+20210803_livestock_chicken_duck_dm_animal,livestock,dm,,"chicken,duck",8,60.45
+20210803_livestock_goat_sheep_hm_animal,livestock,dm,,"goat,sheep",8,65.57
+20210803_paddy_transplanted_moisture_stress_advisory_crop,crop,nursery_management,,paddy,8,81.48
+20210804_paddy_rain_deficit_advisory_crop,crop,,rain_deficit_advisory,paddy,8,104.99
+20210805_paddy_contingent_measures_crop,crop,,,paddy,8,138.13
+20210902_paddy_nutrient_management_excess_rainfall_crop,crop,,excess_rainfall,paddy,9,93.04
+20210903_paddy_advisory_excess_rainfall_crop,crop,,excess_rainfall,paddy,9,125.36
+20210903_paddy_pest_management_swarming_caterpillar_crop,crop,pest management,swarming_caterpillar,paddy,9,113.34
+20210903_pesticide_spray_advisory,crop,pest management,pesticide_spray,,9,100.87
+20210904_excess_rainfall_crop_advisory_crop,crop,,excess_rainfall,,9,85.81
+20210904_kharif_kg_biopesticide_agneyastra_crop,crop,pest management,biopesticide_agneyastra,,9,118.36
+20211001_blackgram_greengram_phm_crop,crop,harvest_management,,"blackgram,greengram",10,84.23
+20211001_groundnut_harvest_storage_crop,crop,harvest_management,harvest_storage,groundnut,10,89.77
+20211001_paddy_fertilizer_pi_crop,crop,fertilizer_management,,paddy,10,70.46
+20211003_blackgram_greengram_phm_crop,crop,harvest_management,,"blackgram,greengram",10,94.19
+20211003_groundnut_harvest_storage_crop,crop,harvest_management,harvest_storage,groundnut,10,89.77
+20211003_paddy_gundhibug_dpm_crop_01,crop,pest management,gundhibug,paddy,10,107.34
+20211003_paddy_gundhibug_dpm_crop_02,crop,pest management,gundhibug,paddy,10,107.34
+20211004_cotton_harvest_cgm_crop,crop,harvest_management,,cotton,10,66.16
+20211004_groundnut_varietal_selection_seed_treatment_crop,crop,nursery_management,varietal_selection_seed_treatment,groundnut,10,132.29
+20211004_onion_seed_treatment_varietal_selection_crop,crop,nursery_management,varietal_selection_seed_treatment,onion,10,76.43
+20211004_paddy_gundhi_bug_dpm_1_crop,crop,pest management,gundhi_bug,paddy,10,107.34
+20211004_paddy_gundhi_bug_dpm_2_crop,crop,pest management,gundhi_bug,paddy,10,107.34
+20211004_redgram_leaf_webber_blister_beetle_crop,crop,pest management,leaf_webber_blister_beetle,redgram,10,102.76
+20211101_groundnut_varietal_selection_seed_treatment_crop,crop,nursery_management,varietal_selection_seed_treatment,groundnut,11,145.96
+20211101_onion_seed_treatment_varietal_selection_crop,crop,nursery_management,varietal_selection_seed_treatment,onion,11,85.28
+20211101_paddy_bph_dpm_1_crop,crop,pest management,bph,paddy,11,120.25
+20211101_paddy_bph_dpm_2_crop,crop,pest management,bph,paddy,11,148.57
+20211103_chilli_fertilizer_hormone_irrigation_crop,crop,fertilizer_management,fertilizer_hormone,chilli,11,96.52
+20211103_colecrops_fertilizer_hormone_crop,crop,fertilizer_management,fertilizer_hormone,colecrops,11,104.91
+20211103_cotton_harvest_phm_msp_crop,crop,harvest_management,,cotton,11,97.69
+20211103_potato_fertilizer_irrigation_crop,crop,fertilizer_management,irrigation,potato,11,99.03
+20211105_weather_advisory_crop,crop,,weather_advisory,,11,117.16
+20211201_blackgram_greengram_seed_treatment_crop,crop,nursery_management,seed_treatment,"greengram,blackgram",12,72.08
+20211201_blackgram_greengram_seed_treatment_crop_coastal,crop,nursery_management,seed_treatment,"greengram,blackgram",12,142.99
+20211201_paddy_faq_msp_crop,crop,harvest_management,,paddy,12,121.73
+20211201_paddy_varietal_selection_crop,crop,nursery_management,varietal_selection,paddy,12,105.91
+20211202_colecrops_physiological_disorder_crop,crop,pest management,physiological_disorder,colecrops,12,87.09
+20211202_paddy_varietal_selection_crop,crop,nursery_management,varietal_selection,paddy,12,107.34
+20211202_paddy_varietal_selection_crop_coastal,crop,nursery_management,varietal_selection,paddy,12,106.45
+20211203_paddy_seed_treatment_crop,crop,nursery_management,seed_treatment,paddy,12,142.25
+20211203_pulses_seed_treatment_crop,crop,nursery_management,seed_treatment,pulses,12,142.99
+20220101_pr_rabi_paddy_line_sowing_transplanting_crop,crop,nursery_management,line_sowing_transplanting,paddy,1,77.5
+20220101_pr_rabi_paddy_seed_treatment_crop,crop,nursery_management,seed_treatment,paddy,1,95.44
+20220101_pr_rabi_pulses_seed_treatment_pesticide_crop,crop,pest management,seed_treatment,pulses,1,74.25
+20220101_pr_rabi_pulses_seeed_treatment_fungicides_crop,crop,pest management,seed_treatment,pulses,1,89.74
+20220102_pr_paddy_zinc_application_basal_crop,crop,fertilizer_management,zinc,paddy,1,132.45
+20220102_pr_rabi_paddy_line_sowing_transplanting_crop,crop,nursery_management,line_sowing_transplanting,paddy,1,77.5
+20220102_pr_rabi_pulses_seed_treatment_biofungicides_biofertilizer_crop,crop,pest management,seed_treatment_biofungicides_biofertilizer,pulses,1,120.23
+20220103_pr_paddy_zinc_application_basal_crop,crop,nursery_management,zinc,paddy,1,132.45
+20220103_pr_rabi_paddy_line_sowing_transplanting_crop,crop,nursery_management,line_sowing_transplanting,paddy,1,77.5
+20220103_pr_rabi_pulses_seed_treatment_biofungicides_biofertilizer_crop,crop,pest management,seed_treatment_biofungicides_biofertilizer,pulses,1,120.23
+20220201_paddy_fertilizer_tillering_crop,crop,fertilizer_management,tillering,paddy,2,60.14
+20220202_blackgram_greengram_ipm_ymv_crop,crop,pest management,ymv,"greengram,blackgram",2,162.39
+20220203_summer_wave_protection_measures_crop,crop,,summer_wave_protection_measures,,2,79.79
+20220301_paddy_fertilizer_pi_crop,crop,fertilizer_management,fertilizer_pi,paddy,3,77.07
+20220303_onion_nutrient_irrigation_crop,crop,fertilizer_management,irrigation,onion,3,82.54
+maize_fertilizer_pewm_crop,crop,fertilizer_management,pewm,maize,8,82.38
+maize_hybrids_crop,crop,nursery_management,hybrids,hybrids,8,100.75
+pr_rabi_pulses_seed_treatment_biofungicides_biofertilizer_crop,crop,pest management,seed_treatment_biofungicides_biofertilizer,pulses,1,120.23
+rct_paddy_bacterial_leaf_blight_management,crop,pest management,bacterial_leaf_blight,paddy,10,153.74
+rct_paddy_basal_fertilizer_application_hybrid_revisesd_nn,crop,fertilizer_management,basal_fertilizer,paddy,8,123.09
+rct_paddy_basal_fertilizer_application_hyv_revisesd_n,crop,fertilizer_management,basal_fertilizer,paddy,8,128.62
+rct_paddy_beushaning_fertilizer_application_broadcasted_paddy,crop,fertilizer_management,beushaning_fertilizer,paddy,8,71.34
+rct_paddy_bph_management_msg1,crop,pest management,bph_management,paddy,11,122.15
+rct_paddy_bph_management_msg2,crop,pest management,bph_management,paddy,11,123.25
+rct_paddy_broadcasted_moisture_stress_n,crop,,moisture_stress,paddy,9,56.4
+rct_paddy_direct_seeded_post_emergence_weed_management,crop,pest management,weed_management,paddy,8,103.97
+rct_paddy_fertilizer_pi_hybrid_acre,crop,fertilizer_management,fertilizer_pi,paddy,10,94.5
+rct_paddy_fertilizer_pi_hybrid_bharana,crop,fertilizer_management,fertilizer_pi,paddy,10,99.59
+rct_paddy_fertilizer_pi_hybrid_decimal,crop,fertilizer_management,fertilizer_pi,paddy,10,95.95
+rct_paddy_fertilizer_pi_hybrid_guntha,crop,fertilizer_management,fertilizer_pi,paddy,10,98.04
+rct_paddy_fertilizer_pi_hyv_acre,crop,fertilizer_management,fertilizer_pi,paddy,9,97.87
+rct_paddy_fertilizer_pi_hyv_bharana,crop,fertilizer_management,fertilizer_pi,paddy,9,107.1
+rct_paddy_fertilizer_pi_hyv_decimal,crop,fertilizer_management,fertilizer_pi,paddy,9,98.79
+rct_paddy_fertilizer_pi_hyv_guntha,crop,fertilizer_management,fertilizer_pi,paddy,9,103.51
+rct_paddy_gundhi_bug_version_1,crop,pest management,gundhibug,paddy,11,123.12
+rct_paddy_harvest_management_crop,crop,harvest_management,,paddy,12,69.46
+rct_paddy_hybrid_fertilizer_application_at_stage,crop,fertilizer_management,hybrid_fertilizer,paddy,8,70.78
+rct_paddy_hyv_fertilizer_application_at_stage,crop,fertilizer_management,hybrid_fertilizer,paddy,8,78.73
+rct_paddy_neck_blast_management,crop,pest management,neck_blast,paddy,11,111.31
+rct_paddy_nutrient_management_excess_rainfall,crop,fertilizer_management,nutrient_management,paddy,9,83.55
+rct_paddy_pest_management_leaf_folder_case_worm,crop,pest management,leaf_folder_case_worm,paddy,10,129.61
+rct_paddy_pest_management_swarming_caterpillar,crop,pest management,swarming_caterpillar,paddy,9,113.34
+rct_paddy_pest_management_ysb,crop,pest management,ysb,paddy,9,102.54
+rct_paddy_pre_emergence_herbicide_transplanted,crop,fertilizer_management,pre_emergence_herbicide,paddy,8,116.27
+rct_paddy_sheath_blight_management,crop,pest management,sheath_blight_management,paddy,10,134.5
+rct_paddy_transplanted_moisture_stress_advisory,crop,harvest_management,moisture_stress,paddy,9,74.1
+rct_paddy_transplanted_moisture_stress_n,crop,harvest_management,moisture_stress,paddy,9,79.27
+rct_paddy_transplanted_post_emergence_weed_management,crop,pest management,weed_management,paddy,8,111.87
+rct_paddy_zinc_application,crop,fertilizer_management,zinc,paddy,8,76.17
+rct_paddy_zinc_symptoms,crop,fertilizer_management,zinc,paddy,10,135.09
+rct_paddy_zinc_treatment,crop,fertilizer_management,zinc,paddy,10,148
+week2_rct_20210702_paddy_hyv_transplanting_basal_fertilizer_crop,crop,harvest_management,basal_fertilizer,paddy,11,69.59
