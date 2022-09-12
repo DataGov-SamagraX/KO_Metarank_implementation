@@ -1,0 +1,133 @@
+bootstrap:
+  source:
+    type: file
+    path: /data/events
+  workdir: /data/bootstrap
+
+inference:
+  port: 8080
+  host: "0.0.0.0"
+  source:
+    type: rest
+  state:
+    type: redis
+    host: redis
+    format: json
+
+models:
+  xgboost:
+    type: lambdamart
+    path: /data/xgboost.model
+    backend:
+      type: xgboost
+      iterations: 10
+      seed: 0
+    weights:
+      click: 1
+    features:
+      - Activities
+      - Own_poultry
+      - Own_animal_small
+      - Own_animal_large
+      - Farmertype
+      - duration
+      - tag_2
+      - base_tag
+      - ctr
+      - liked_crop
+      - visitor_click_count
+      - global_item_click_count
+      - day_item_click_count
+features:
+  - name: Activities
+    type: string
+    scope: user
+    source: user.Activities
+    values:
+      - Crop_prod
+      - Animal_husbandry
+      - Fisheries
+      - Forestry
+
+  - name: Own_poultry
+    type: number
+    scope: user
+    source: user.Own_poultry
+
+  - name: Own_animal_small
+    type: number
+    scope: user
+    source: user.Own_animal_small
+
+  - name: Own_animal_large
+    type: number
+    scope: user
+    source: user.Own_animal_large
+
+  - name: Farmertype
+    type: number
+    scope: user
+    source: user.Farmertype
+
+  - name: duration
+    type: number
+    source: item.duration
+    scope: item
+    
+  - name: tag_2
+    type: string
+    scope: item
+    source: item.tag_2
+    values:
+      - pest management
+      - nursery_management
+      - fertilizer_management
+      - harvest_management
+      - dm
+      - pp
+      - vaccination
+      - bm
+      - freshwater
+      - marinefisheries
+
+  - name: base_tag
+    type: string
+    scope: item
+    source: item.base_tag
+    values:
+      - crop
+      - livestock
+      - fishery
+
+  - name: ctr
+    type: rate
+    top: click
+    bottom: impression
+    scope: item
+    bucket: 24h
+    periods: [30,60]
+
+  - name: liked_crop
+    type: interacted_with
+    interaction: click
+    field: item.crop
+    scope: session
+    count: 5
+    duration: 720h
+
+  - name: visitor_click_count
+    type: interaction_count
+    interaction: click
+    scope: session
+
+  - name: global_item_click_count
+    type: interaction_count
+    interaction: click
+    scope: item
+
+  - name: day_item_click_count
+    type: window_count
+    interaction: click
+    scope: item
+    bucket: 24h
+    periods: [60]
