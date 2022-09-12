@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  redis:
+    container_name: redis
+    image: "redis:7.0.0"
+    ports:
+      - "6379:6379"
+
+  metarank_standalone:
+    container_name: metarank_standalone
+    image: metarank/metarank:0.4.1
+    depends_on:
+      - redis
+    command: "standalone /data/config.yml"
+    volumes:
+      - ./metarank:/data
+    ports:
+      - "8080:8080"
+      - "6123:6123"
+      - "8081:8081"

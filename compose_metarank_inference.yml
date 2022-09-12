@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  metarank:
+    container_name: metarank_inference
+    image: metarank/metarank:0.4.1
+    command: "inference /data/config.yml"
+    volumes:
+      - ./metarank:/data
+    ports:
+      - "8080:8080"
+      - "6123:6123"
+

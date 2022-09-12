@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  metarank_train:
+    container_name: metarank_train
+    image: metarank/metarank:0.4.1
+    command: "train /data/config.yml xgboost"
+    volumes:
+      - ./metarank:/data
+    ports:
+      - "8080:8080"
+      - "6123:6123"
+      - "8081:8081"

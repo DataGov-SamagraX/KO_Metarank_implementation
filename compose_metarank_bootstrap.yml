@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  metarank_bootstrap:
+    container_name: metarank_bootstrap
+    image: metarank/metarank:0.4.1
+    command: "bootstrap /data/config.yml"
+    volumes:
+      - ./metarank:/data
+    ports:
+      - "8080:8080"
+      - "6123:6123"
+      - "8081:8081"
