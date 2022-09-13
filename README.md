@@ -102,11 +102,11 @@ for item/user events should be before they appear in any of the rankings
 and have any interactions
 
 **fields:** This gives additional information about the features of the
-item. Each feature like name,tag\_2 etc are fed to name and the
+item. Each feature like name,tag_2 etc are fed to name and the
 corresponding value is fed to ‘value’. If there are multiple values for
 a feature, they are made into a list
 
-1.  **User metadata events:**
+2.  **User metadata events:**
 
 The event is to provide metadata for any new users that the model wasn’t
 trained on. The format/ structure of the event is the same as the item
@@ -176,7 +176,7 @@ user. Each feature like district, crops grown etc are fed to name and
 the corresponding value is fed to ‘value’. If there are multiple values
 for a feature, they are made into a list
 
-1.  **Ranking event:**
+3.  **Ranking event:**
 
 The event provides the list of items shown to the user.
 
@@ -276,7 +276,7 @@ This is always an empty list in our model for ranking events
 of a ranking event should be before the corresponding interaction. User
 must view the list of items before interacting with any of them
 
-1.  **Interaction event:**
+4.  **Interaction event:**
 
 The event provides the response of the user (interactions) to the list
 of items shown to the user. Only click events are supported currently
@@ -342,12 +342,12 @@ This is always an empty list in our model for interaction events
 
 The recommendation engine is hosted at ***localhost:8080***
 
-It has two URLs for user interaction (where &lt;ip&gt; is the IP address
-of the server where the recommendation engine is hosted):
+It has two URLs for user interaction (where \<ip\> is the IP address of
+the server where the recommendation engine is hosted):
 
-1.  Feedback URL: ***http://&lt;ip&gt;:8080/feedback***
+1.  Feedback URL: ***http://\<ip\>:8080/feedback***
 
-2.  Ranking URL: ***http://&lt;ip&gt;:8080/rank/xgboost***
+2.  Ranking URL: ***http://\<ip\>:8080/rank/xgboost***
 
 There are two types of events that one can use to interact with the
 recommendation engine:
@@ -379,31 +379,30 @@ should be updated with the latest data before each run
 
 Events folder needs to be updated with gzip json files which have :
 
--   Latest user metadata
+- Latest user metadata
 
--   Latest content metadata
+- Latest content metadata
 
--   User interactions for the past year
+- User interactions for the past year
 
 To create these gzip files in the event location, one can use the
 created [<u>python
 script</u>](https://github.com/DataGov-SamagraX/IVRS_recommendations/blob/main/Creating%20interactions%20and%20ranking%20events.ipynb).
 The script 4 inputs:
 
--   Location of csv file with the latest user metadata
+- Location of csv file with the latest user metadata
 
--   Location of csv file with content metadata
+- Location of csv file with content metadata
 
--   Location of directory containing the user interactions for the past
-    > year
+- Location of directory containing the user interactions for the past
+  > year
 
--   Location of events directory where the created events need to be
-    > stored
+- Location of events directory where the created events need to be
+  > stored
 
 These are fed as variables as shown below:
 
-<img src="&#39;./attachments/myfilename&#39;/media/image3.png"
-style="width:6.5in;height:1.51389in" />
+<img src="doc/media/image3.png" style="width:6.5in;height:1.51389in" />
 
 Summarizing the above as sequential steps for running the system:
 
@@ -439,19 +438,19 @@ There are 3 kinds of changes that one can make to the model :
 All features to be included in the model need to be specified in the
 config file. This is done in models → xgboost → features as shown below
 
--   <img src="&#39;./attachments/myfilename&#39;/media/image1.png"
-    > style="width:2.88021in;height:3.17178in" />
+- <img src="doc/media/image1.png"
+  > style="width:2.88021in;height:3.17178in" />
 
 Any new features can be added to the list as required.
 
-1.  Modifying the features:
+2.  Modifying the features:
 
 > One can also modify the definition of each features in the config file
 > under features:
 >
 > Example:
 >
-> <img src="&#39;./attachments/myfilename&#39;/media/image2.png"
+> <img src="doc/media/image2.png"
 > style="width:2.39063in;height:3.90975in" />
 >
 > where:
@@ -461,16 +460,15 @@ Any new features can be added to the list as required.
 >
 > Type: The type of features that can be created :
 
--   ‘Rate’: features that have numerator and denominator
+- ‘Rate’: features that have numerator and denominator
 
--   ‘Interacted with’: features that check if user has interacted with a
-    > feature in the time period (specified inside duration)
+- ‘Interacted with’: features that check if user has interacted with a
+  > feature in the time period (specified inside duration)
 
--   Interaction count: Feature that number of interactions for the item
+- Interaction count: Feature that number of interactions for the item
 
--   Window count : Features that count number of interactions for the
-    > item within defined time frameworks (past 2 months, past 1 week
-    > etc)
+- Window count : Features that count number of interactions for the item
+  > within defined time frameworks (past 2 months, past 1 week etc)
 
 Bucket/Period: Used to define window count/impression feature
 characteristics. E.g. Window count with bucket 24h and \[30,60\] means
@@ -480,7 +478,8 @@ Count: used to establish how often to refresh the click metrics. E.g. If
 count is 5, metarank will check the number of clicks in last 5 seconds
 every 5 seconds and update the model
 
-1.  **Setting the cutoff of binary clicks:**
+3.  **Setting the cutoff of binary clicks:**
 
-> This is defined in the variable eng\_ratio\_cutoff in the interaction
+> This is defined in the variable eng_ratio_cutoff in the interaction
 > event creation notebook. Its currently set to 0.858
+
