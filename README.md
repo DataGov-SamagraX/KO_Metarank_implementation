@@ -1,10 +1,9 @@
 # Metarank Demo
 
-This is a demo outlining how you can use Metarank in real-world scenarios. The code showcases how you can utilize deployed Metarank instance in your web application and covers ranking results, sending feedback and analyzing response.
 
-**<u>API documentation for Metarank</u>**
 
-**<u>Introduction:</u>**
+
+## Introduction:
 
 The recommendation engine used is
 [<u>metarank</u>](https://github.com/metarank/metarank) which relies on
@@ -13,7 +12,7 @@ the predictions. When deployed, Metarank is hosted on a server and works
 by sending API event requests to its URLs and the engine returns
 recommendations for the received events.
 
-**<u>Event format for the recommendation engine:</u>**
+## Event format for the recommendation engine:
 
 The recommendation engine works by sending various events to the APIs
 and receiving responses back from them.
@@ -30,7 +29,7 @@ There are 4 types of events that can be sent to the engine:
 
 <!-- -->
 
-1.  **Item metadata events :**
+###  **Item metadata events :
 
 This event is to provide metadata for any item. Metadata of all items
 need to be included in training and if predictions for any new item
@@ -59,7 +58,7 @@ item. Each feature like name,tag_2 etc are fed to name and the
 corresponding value is fed to ‘value’. If there are multiple values for
 a feature, they are made into a list
 
-2.  **User metadata events:**
+###  User metadata events:
 
 The event is to provide metadata for any new users that the model wasn’t
 trained on. The format/ structure of the event is the same as the item
@@ -86,10 +85,9 @@ user. Each feature like district, crops grown etc are fed to name and
 the corresponding value is fed to ‘value’. If there are multiple values
 for a feature, they are made into a list
 
-3.  **Ranking event:**
+###   Ranking event:
 
 The event provides the list of items shown to the user.
-
 
 
 **event**: This is to describe which type of event it is, it should
@@ -117,12 +115,11 @@ This is always an empty list in our model for ranking events
 of a ranking event should be before the corresponding interaction. User
 must view the list of items before interacting with any of them
 
-4.  **Interaction event:**
+###   Interaction event:
 
 The event provides the response of the user (interactions) to the list
 of items shown to the user. Only click events are supported currently
 for the IVRS model.
-
 
 
 **event**: This is to describe which type of event it is, it should
@@ -157,25 +154,23 @@ any of them
 **Fields**: This is for any additional fields for the interaction event.
 This is always an empty list in our model for interaction events
 
-**<u>Hosting of the recommendation engine and feedback URL’s</u>**
+## Hosting of the recommendation engine and feedback URL’s 
 
 The recommendation engine is hosted at ***localhost:8080***
 
-It has two URLs for user interaction (where \<ip\> is the IP address of
-the server where the recommendation engine is hosted):
+It has two URLs for user interaction (where \<ip\> is the IP address of the server where the recommendation engine is hosted):
 
 1.  Feedback URL: ***http://\<ip\>:8080/feedback***
 
 2.  Ranking URL: ***http://\<ip\>:8080/rank/xgboost***
 
-There are two types of events that one can use to interact with the
-recommendation engine:
+There are two types of events that one can use to interact with the recommendation engine:
 
 1.  Feedback events : Any of the events above can be sent to the ***feedback url.*** These update the model with new information. We send interaction events to let the model know about the latest interactions of the user and the model modifies the ranking/recommendations for the user accordingly. These can also be used to add new items/users metadata to the model
 
 2.  Recommendation events: Only ranking events can be sent to the ***ranking url.*** These can be sent as a POST request. For each ranking event, the recommendation engine returns the list of items in the ranking event in the order of the recommendation/ranking with the corresponding scores. These can be used as the recommendations of content for each user to be used for the IVRS calls.
 
-**<u>Deploying the recommendation engine</u>**
+## Deploying the recommendation engine 
 
 The metarank recommendation engine can currently be run through docker
 using the created repo
@@ -200,11 +195,9 @@ The script 4 inputs:
 
 - Location of csv file with content metadata
 
-- Location of directory containing the user interactions for the past
-  > year
+- Location of directory containing the user interactions for the past year
 
-- Location of events directory where the created events need to be
-  > stored
+- Location of events directory where the created events need to be stored
 
 These are fed as variables in the python script
 
@@ -232,11 +225,11 @@ script</u>](https://github.com/DataGov-SamagraX/KO_Metarank_implementation/blob/
 
 10.  The user/content for which predictions need to be made should be pushed using the above event format to feedback/ranking URL and metarank will return the recommendations.
 
-**<u>Changing model parameters:</u>**
+## Changing model parameters:
 
 There are 3 kinds of changes that one can make to the model :
 
-1.  Features required to be modelled:
+###  Features required to be modelled:
 
 All features to be included in the model need to be specified in the
 config file. This is done in models → xgboost → features as shown below
@@ -246,7 +239,7 @@ config file. This is done in models → xgboost → features as shown below
 
 Any new features can be added to the list as required.
 
-2.  Modifying the features:
+###  Modifying the features:
 
  One can also modify the definition of each features in the config file
  under features:
@@ -268,6 +261,6 @@ Bucket/Period: Used to define window count/impression feature characteristics. E
 
 Count: used to establish how often to refresh the click metrics. E.g. If count is 5, metarank will check the number of clicks in last 5 seconds every 5 seconds and update the model
 
-3.  **Setting the cutoff of binary clicks:**
+###  Setting the cutoff of binary clicks:
  This is defined in the variable eng_ratio_cutoff in the interaction  event creation notebook. Its currently set to 0.858
 
