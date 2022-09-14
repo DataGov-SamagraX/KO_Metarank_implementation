@@ -37,53 +37,6 @@ need to be included in training and if predictions for any new item
 (item that wasn’t included in training) is required, their metadata
 event should be sent to the feedback API.
 
-Example:
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>{<br />
-"item": "20210703_cucurbits_downy_mildew_dpm_crop",<br />
-"fields": [<br />
-{<br />
-"name": "base_tag",<br />
-"value": "crop"<br />
-},<br />
-{<br />
-"name": "tag_2",<br />
-"value": "pest management"<br />
-},<br />
-{<br />
-"name": "tag_3",<br />
-"value": "downy_mildew"<br />
-},<br />
-{<br />
-"name": "crop",<br />
-"value": [<br />
-"cucurbits"<br />
-]<br />
-},<br />
-{<br />
-"name": "month",<br />
-"value": 7<br />
-},<br />
-{<br />
-"name": "duration",<br />
-"value": 91<br />
-}<br />
-],<br />
-"id": "20210703_cucurbits_downy_mildew_dpm_crop",<br />
-"timestamp": 1600000000000,<br />
-"event": "item"<br />
-}</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
 
 The keys are :
 
@@ -112,50 +65,7 @@ The event is to provide metadata for any new users that the model wasn’t
 trained on. The format/ structure of the event is the same as the item
 event except that the event tag is ‘user’ instead of ‘item’
 
-Example:
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>{<br />
-"user": "7758983563",<br />
-"fields": [<br />
-{<br />
-"name": "Activities",<br />
-"value": [<br />
-"Crop_prod",<br />
-"Animal_husbandry"<br />
-]<br />
-},<br />
-{<br />
-"name": "kharif_crops",<br />
-"value": [<br />
-"redgram",<br />
-"maize",<br />
-"cowpea",<br />
-"greengram",<br />
-"paddy",<br />
-"okra",<br />
-"groundnut"<br />
-]<br />
-},<br />
-{<br />
-"name": "district",<br />
-"value": "SONEPUR"<br />
-}<br />
-],<br />
-"id": "7758983563",<br />
-"timestamp": 1600000000000,<br />
-"event": "user"<br />
-}</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
 
 **event**: This is to describe which type of event it is, it should
 always be ‘user’ for item events
@@ -180,76 +90,7 @@ for a feature, they are made into a list
 
 The event provides the list of items shown to the user.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>{<br />
-"user": "7758983563",<br />
-"timestamp": 1643797923292,<br />
-"items": [<br />
-{<br />
-"id": "20220201_paddy_fertilizer_tillering_crop",<br />
-"relevancy": 0<br />
-},<br />
-{<br />
-"id": "20220105_animal_cattle_buffalo_goat_sheep_dm_livestock",<br />
-"relevancy": 0<br />
-},<br />
-{<br />
-"id": "20220203_paddy_weed_management_crop",<br />
-"relevancy": 0<br />
-},<br />
-{<br />
-"id": "20220201_animal_chicken_duck_dm_livestock",<br />
-"relevancy": 0<br />
-},<br />
-{<br />
-"id": "20220202_animal_cattle_buffalo_hm_livestock",<br />
-"relevancy": 0<br />
-},<br />
-{<br />
-"id": "20220104_paddy_preemergence_weed_management_crop",<br />
-"relevancy": 0<br />
-},<br />
-{<br />
-"id": "20220105_animal_chicken_duck_dm_livestock",<br />
-"relevancy": 0<br />
-},<br />
-{<br />
-"id": "20220105_groundnut_tikka_dpm_crop",<br />
-"relevancy": 0<br />
-},<br />
-{<br />
-"id": "20220201_groundnut_sucking_pest_dpm_crop",<br />
-"relevancy": 0<br />
-},<br />
-{<br />
-"id": "20220202_animal_goat_sheep_dm_livestock",<br />
-"relevancy": 0<br />
-},<br />
-{<br />
-"id": "20220202_groundnut_tikka_dpm_crop",<br />
-"relevancy": 0<br />
-},<br />
-{<br />
-"id": "20220202_paddy_ysb_dpm_crop",<br />
-"relevancy": 0<br />
-}<br />
-],<br />
-"id": "2022_01_01-2022_02_28_2509202",<br />
-"event": "ranking",<br />
-"session": "7758983563",<br />
-"tenant": "default",<br />
-"fields": []<br />
-}</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+
 
 **event**: This is to describe which type of event it is, it should
 always be ‘ranking’ for ranking events
@@ -282,29 +123,7 @@ The event provides the response of the user (interactions) to the list
 of items shown to the user. Only click events are supported currently
 for the IVRS model.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>{<br />
-"event": "interaction",<br />
-"fields": [],<br />
-"id": "2022_01_01-2022_02_28_10586",<br />
-"item": "20211204_animal_goat_sheep_fm_livestock",<br />
-"ranking": "2022_01_01-2022_02_28_2509202",<br />
-"session": "7758983563",<br />
-"tenant": "default",<br />
-"timestamp": 1643797924383,<br />
-"type": "click",<br />
-"user": "7758983563"<br />
-}</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+
 
 **event**: This is to describe which type of event it is, it should
 always be ‘interaction’ for interaction events
@@ -352,30 +171,17 @@ the server where the recommendation engine is hosted):
 There are two types of events that one can use to interact with the
 recommendation engine:
 
-1.  Feedback events : Any of the events above can be sent to the
-    > ***feedback url.*** These update the model with new information.
-    > We send interaction events to let the model know about the latest
-    > interactions of the user and the model modifies the
-    > ranking/recommendations for the user accordingly. These can also
-    > be used to add new items/users metadata to the model
+1.  Feedback events : Any of the events above can be sent to the ***feedback url.*** These update the model with new information. We send interaction events to let the model know about the latest interactions of the user and the model modifies the ranking/recommendations for the user accordingly. These can also be used to add new items/users metadata to the model
 
-2.  Recommendation events: Only ranking events can be sent to the
-    > ***ranking url.*** These can be sent as a POST request. For each
-    > ranking event, the recommendation engine returns the list of items
-    > in the ranking event in the order of the recommendation/ranking
-    > with the corresponding scores. These can be used as the
-    > recommendations of content for each user to be used for the IVRS
-    > calls.
+2.  Recommendation events: Only ranking events can be sent to the ***ranking url.*** These can be sent as a POST request. For each ranking event, the recommendation engine returns the list of items in the ranking event in the order of the recommendation/ranking with the corresponding scores. These can be used as the recommendations of content for each user to be used for the IVRS calls.
 
 **<u>Deploying the recommendation engine</u>**
 
 The metarank recommendation engine can currently be run through docker
-using the created
-[<u>repo</u>](https://github.com/DataGov-SamagraX/metarank.git)
+using the created repo
 
-Before running the recommendations, the [<u>events
-folder</u>](https://github.com/DataGov-SamagraX/metarank/tree/master/metarank/events)
-should be updated with the latest data before each run
+Before running the recommendations, the [events
+folder](https://github.com/DataGov-SamagraX/KO_Metarank_implementation/tree/main/metarank/events) should be updated with the latest data before each run
 
 Events folder needs to be updated with gzip json files which have :
 
@@ -387,7 +193,7 @@ Events folder needs to be updated with gzip json files which have :
 
 To create these gzip files in the event location, one can use the
 created [<u>python
-script</u>](https://github.com/DataGov-SamagraX/IVRS_recommendations/blob/main/Creating%20interactions%20and%20ranking%20events.ipynb).
+script</u>](https://github.com/DataGov-SamagraX/KO_Metarank_implementation/blob/main/event_creation/Creating%20interactions%20and%20ranking%20events.ipynb).
 The script 4 inputs:
 
 - Location of csv file with the latest user metadata
@@ -400,34 +206,31 @@ The script 4 inputs:
 - Location of events directory where the created events need to be
   > stored
 
-These are fed as variables as shown below:
-
-<img src="doc/media/image3.png" style="width:6.5in;height:1.51389in" />
+These are fed as variables in the python script
 
 Summarizing the above as sequential steps for running the system:
 
-1.  Clone the github
-    > [<u>repo</u>](https://github.com/DataGov-SamagraX/metarank.git)
-    > for running metarank
+1.  Clone the github repofor running metarank
 
 2.  Download the [<u>python
-    > script</u>](https://github.com/DataGov-SamagraX/IVRS_recommendations/blob/main/Creating%20interactions%20and%20ranking%20events.ipynb)
-    > for creating events
+script</u>](https://github.com/DataGov-SamagraX/KO_Metarank_implementation/blob/main/event_creation/Creating%20interactions%20and%20ranking%20events.ipynb) for creating events
 
-3.  Specify the file location for the content /user metadata and the
-    > interactions files along with the event location of the downloaded
-    > metarank repo within the python script
+3.  Specify the file location for the content /user metadata and the interactions files along with the event location of the downloaded metarank repo within the python script
 
-4.  Run the Python script to create the jsonl.gz files within the events
-    > folder of metarank repo
+4.  Run the Python script to create the jsonl.gz files within the events folder of metarank repo
 
-5.  Run docker compose up on the cloned github repo
+5.  Run ``` docker-compose -f compose_metarank_bootstrap.yml up ``` to run the bootstrapping. This will create the bootsrap folder too.
 
-6.  Metarank will now be running on the aforementioned URLs.
+6.  Run ``` docker-compose -f compose_metarank_train.yml up ``` to run the model training.  This will create a trained model. 
 
-7.  The user/content for which predictions need to be made should be
-    > pushed the above event format to feedback/ranking URL and metarank
-    > will return the recommendations.
+7.  The above steps are the offline training of the model and need to be done at pre-decided frequency (weekly/monthly etc)
+
+8.  Before deploying the model, one needs to first start redis and upload the model there.  This is done by running ``` docker-compose -f compose_metarank_upload.yml up ```
+
+9. To deploy the model, run ```docker-compose -f compose_metarank_inference.yml up  ```. Metarank is up and running now 
+
+
+10.  The user/content for which predictions need to be made should be pushed using the above event format to feedback/ranking URL and metarank will return the recommendations.
 
 **<u>Changing model parameters:</u>**
 
@@ -445,41 +248,26 @@ Any new features can be added to the list as required.
 
 2.  Modifying the features:
 
-> One can also modify the definition of each features in the config file
-> under features:
->
-> Example:
->
-> <img src="doc/media/image2.png"
-> style="width:2.39063in;height:3.90975in" />
->
-> where:
->
-> Scope: The metadata that needs to be accessed for the feature
-> (session/item). Session is same as user
->
-> Type: The type of features that can be created :
+ One can also modify the definition of each features in the config file
+ under features:
 
-- ‘Rate’: features that have numerator and denominator
+ Example:
 
-- ‘Interacted with’: features that check if user has interacted with a
-  > feature in the time period (specified inside duration)
+ <img src="doc/media/image2.png"
+ style="width:2.39063in;height:3.90975in" />
 
-- Interaction count: Feature that number of interactions for the item
+ where:
+-  Scope: The metadata that needs to be accessed for the feature (session/item). Session is same as user
+-  Type: The type of features that can be created :
+-  Rate: features that have numerator and denominator
+-  Interacted with: features that check if user has interacted with a feature in the time period (specified inside duration)
+-  Interaction count: Feature that number of interactions for the item
+-  Window count : Features that count number of interactions for the item within defined time frameworks (past 2 months, past 1 week etc)
 
-- Window count : Features that count number of interactions for the item
-  > within defined time frameworks (past 2 months, past 1 week etc)
+Bucket/Period: Used to define window count/impression feature characteristics. E.g. Window count with bucket 24h and \[30,60\] means features counting the average clicks in past 30 days and past 60 days
 
-Bucket/Period: Used to define window count/impression feature
-characteristics. E.g. Window count with bucket 24h and \[30,60\] means
-features counting the average clicks in past 30 days and past 60 days
-
-Count: used to establish how often to refresh the click metrics. E.g. If
-count is 5, metarank will check the number of clicks in last 5 seconds
-every 5 seconds and update the model
+Count: used to establish how often to refresh the click metrics. E.g. If count is 5, metarank will check the number of clicks in last 5 seconds every 5 seconds and update the model
 
 3.  **Setting the cutoff of binary clicks:**
-
-> This is defined in the variable eng_ratio_cutoff in the interaction
-> event creation notebook. Its currently set to 0.858
+ This is defined in the variable eng_ratio_cutoff in the interaction  event creation notebook. Its currently set to 0.858
 
