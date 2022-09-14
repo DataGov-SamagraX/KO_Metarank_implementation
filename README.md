@@ -29,7 +29,7 @@ There are 4 types of events that can be sent to the engine:
 
 <!-- -->
 
-###  **Item metadata events :
+###  Item metadata events :
 
 This event is to provide metadata for any item. Metadata of all items
 need to be included in training and if predictions for any new item
