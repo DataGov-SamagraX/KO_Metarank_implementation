@@ -234,8 +234,7 @@ There are 3 kinds of changes that one can make to the model :
 All features to be included in the model need to be specified in the
 config file. This is done in models → xgboost → features as shown below
 
-- <img src="doc/media/image1.png"
-  > style="width:2.88021in;height:3.17178in" />
+- <img src="doc/media/image1.png"   style="width:2.88021in;height:3.17178in" />
 
 Any new features can be added to the list as required.
 
@@ -246,8 +245,7 @@ Any new features can be added to the list as required.
 
  Example:
 
- <img src="doc/media/image2.png"
- style="width:2.39063in;height:3.90975in" />
+ <img src="doc/media/image2.png" style="width:2.39063in;height:3.90975in" />
 
  where:
 -  Scope: The metadata that needs to be accessed for the feature (session/item). Session is same as user
