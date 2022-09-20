@@ -220,7 +220,7 @@ script</u>](https://github.com/DataGov-SamagraX/KO_Metarank_implementation/blob/
 
 8.  Before deploying the model, one needs to first start redis and upload the model there.  This is done by running ``` docker-compose -f compose_metarank_upload.yml up ```
 
-9. To deploy the model, run ```docker-compose -f compose_metarank_inference.yml up  ```. Metarank is up and running now 
+9. To deploy the model, run ```docker-compose  up  ```. Metarank is up and running now 
 
 
 10.  The user/content for which predictions need to be made should be pushed using the above event format to feedback/ranking URL and metarank will return the recommendations.
